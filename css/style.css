@@ -1,0 +1,81 @@
+body {
+	font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+
+#description {
+	font-size: 22px;
+	text-align: left;
+	margin: 0px auto;
+	width: 390px;
+}
+
+#gameOverWrapper {
+	background: none repeat scroll 0 0 #000;
+    border: 10px solid yellow;
+    color: yellow;
+    font-size: 36px;
+    margin: 0 auto;
+    opacity: 0.7;
+    padding: 20px 0;
+    position: relative;
+    text-align: center;
+    top: -420px;
+    width: 410px;
+}
+
+#finalScore  {
+	font-size: 24px;
+	margin-top: 0px;
+}
+
+
+#instructions {
+	font-size: 18px;
+	text-align: left;
+	margin: 20px auto 0;
+	width: 390px;
+}
+
+#resetText {
+	animation: blinker .7s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+	font-size: 18px;
+	margin-top: 20px;
+}
+@keyframes blinker {  
+	from { opacity: 1; }
+	to { opacity: 0; }
+}
+
+#scoreboardWrapper {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0px auto;
+	overflow: hidden;
+	position: relative;
+	text-align: right;
+	top: 48px;
+	width: 500px;
+}
+
+#score, #level {
+	float: right;
+	text-align: right;
+	width: 115px;
+}
+
+#startScreen {
+	background: none repeat scroll 0 0 #000;
+    border: 10px solid red;
+    color: #FFF;
+	font-family: 'Orbitron', sans-serif;
+    font-size: 36px;
+	font-weight: bold;
+    margin: 0 auto;
+    opacity: 0.7;
+    padding: 20px 0;
+    position: relative;
+    text-align: center;
+    top: -500px;
+    width: 410px;
+}
