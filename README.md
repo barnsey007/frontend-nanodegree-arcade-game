@@ -1,5 +1,4 @@
-# frontend-nanodegree-arcade-game
-# frogger clone - udacity
+# frontend-nanodegree-arcade-game | frogger clone | udacity
 
 Help George avoid the cars and get to the other side. Jump on the rocks to cross the river!
 
